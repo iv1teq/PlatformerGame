@@ -1,0 +1,82 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "blockss.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "decor.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "key.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "keys.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.125
+        },
+        "map.tmx": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1665.151515151515,
+                "y": 1056.060606060606
+            }
+        },
+        "map.tmx#blocks": {
+            "dynamicWrapping": true
+        },
+        "ЬФз.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 957,
+                "y": 55
+            }
+        }
+    },
+    "last.externalTilesetPath": "/Users/worldit.academy/Desktop/Python/Python_One_1800 NOVOSELSKYI/June/1006/assets/tilemaps/First.project",
+    "last.imagePath": "C:/Users/Viktor Horiunov/Desktop/decor",
+    "map.height": 17,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 50,
+    "map.tileWidth": 50,
+    "map.width": 140,
+    "openFiles": [
+        "map.tmx",
+        "keys.tsx"
+    ],
+    "project": "First tiled game.tiled-project",
+    "recentFiles": [
+        "keys.tsx",
+        "map.tmx",
+        "key.tsx",
+        "blockss.tsx",
+        "decor.tsx",
+        "ЬФз.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 21,
+        "width": 40
+    },
+    "tileset.type": 1
+}

@@ -1,0 +1,180 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "promProjectTilemap.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/Users/getapple/Desktop/Новая папка 2/Final_game.tmx": {
+            "scale": 0.1966,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3227.3652085452695,
+                "y": -371.3123092573753
+            }
+        },
+        "/Users/getapple/Desktop/Новая папка 2/all_other.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Desktop/Новая папка 2/elements.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Desktop/Новая папка 2/grasses.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Documents/Tilemaps/2705project/blocks_tileset.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Documents/Tilemaps/2705project/dtxfcygvuhbijnokpml['.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/Users/getapple/Documents/Tilemaps/2705project/tilemap.tmx": {
+            "scale": 0.57,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 765.7894736842105,
+                "y": 629.8245614035088
+            }
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/First.project/blockss.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/First.project/keys.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/First.project/map.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.1654,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 548.7386305131286,
+                "y": 714.7760425604943
+            }
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/Homework_Tiled (2)/Homework.tmx": {
+            "scale": 0.9898,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 389.472620731461,
+                "y": 629.4200848656294
+            }
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/Homework_Tiled (2)/Tiled проекты/Homework1.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/Homework_Tiled (2)/Tiled проекты/Декорации.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/Homework_Tiled (2)/Tiled проекты/Куст.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/Homework_Tiled (2)/Tiled проекты/Кусты.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/tiles/дз.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/тайл,дз/дз.tmx": {
+            "scale": 0.3362,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1337.001784651993,
+                "y": 529.4467578822129
+            }
+        },
+        "/Users/getapple/Downloads/tilemap/another.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/tilemap/map.tmx": {
+            "scale": 0.3506,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3324.3011979463777,
+                "y": -34.22703936109531
+            }
+        },
+        "/Users/getapple/Downloads/tilemap/map.tmx#another": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/tilemap/блоки.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/tiles/дз.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/getapple/Downloads/тайл,дз/дз.tmx": {
+            "scale": 0.2935,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2327.0868824531517,
+                "y": 947.1890971039181
+            }
+        },
+        "blocks.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "boxes_chests.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "deco.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "items.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "promProjectTilemap.tmx": {
+            "scale": 0.5032,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 946.939586645469,
+                "y": 227.54372019077903
+            }
+        }
+    },
+    "last.exportedFilePath": "/Users/getapple/Documents/lesson-plans/python_one/may/2005/files/assets/tilemaps",
+    "last.externalTilesetPath": "/Users/getapple/Downloads/tiles",
+    "last.imagePath": "/Users/getapple/Documents/Tilemaps/promProject/assets/deco",
+    "map.height": 16,
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 50,
+    "map.tileWidth": 50,
+    "map.width": 41,
+    "openFiles": [
+        "promProjectTilemap.tmx"
+    ],
+    "project": "promProjectFile.tiled-project",
+    "recentFiles": [
+        "promProjectTilemap.tmx",
+        "/Users/getapple/Documents/Tilemaps/2705project/tilemap.tmx",
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/First.project/map.tmx",
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/Homework_Tiled (2)/Homework.tmx",
+        "/Users/getapple/Downloads/Telegram Lite/Tilemaps 2/тайл,дз/дз.tmx",
+        "/Users/getapple/Documents/Tilemaps/2705project/dtxfcygvuhbijnokpml['.tsx",
+        "/Users/getapple/Desktop/Новая папка 2/Final_game.tmx",
+        "/Users/getapple/Downloads/тайл,дз/дз.tmx",
+        "/Users/getapple/Downloads/tilemap/map.tmx",
+        "deco.tsx",
+        "items.tsx",
+        "boxes_chests.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}
