@@ -3,6 +3,7 @@ import pygame
 from .settings import Settings
 from .tilemap import game_map
 
+
 class Sprite(Settings):
     def __init__(self, sprite_ch_x, sprite_ch_y, sprite_ch_width, sprite_ch_height, sprite_ch_image_name):
         Settings.__init__(
@@ -15,10 +16,11 @@ class Sprite(Settings):
         )
 
         self.DIRECTION = ""
-        
+        self.ACTIVE_GRAVITY = True
         self.COUNT_ANIMATION = 0
         self.SPEED_ANIMATION = 0
         self.CURRENT_ANIMATION = ""
+        self.GRAVITY = 6
     
     def can_move_right(self, hitbox_list: list, item: str):
         for hitbox in hitbox_list:
@@ -69,6 +71,7 @@ class Sprite(Settings):
     def can_move_down(self, hitbox_list: list, item, character = None):
         for element in hitbox_list:
             hitbox = pygame.Rect(element.x, element.y, element.width, 1)
+            self.CAN_MOVE_DOWN = True
 
             if self.RECT.colliderect(hitbox):
                 if item == "block":
@@ -77,6 +80,7 @@ class Sprite(Settings):
                     self.COUNT_JUMP = 0
                     self.DIRECTION = "IDLE"
                     self.CAN_JUMP = True
+                    self.CAN_MOVE_DOWN = False
 
                     break
                 elif item == "egg":
@@ -88,6 +92,7 @@ class Sprite(Settings):
                     
                     game_map.REMOVED_EGGS_HITBOXES.append((hitbox.x + game_map.MOVE, hitbox.y))
                     self.EGGS_COUNT += 1
+                    self.CAN_MOVE_DOWN = True
                 elif item == "chicken":
                     character.IS_DELETED = True
             else:
@@ -112,31 +117,10 @@ class Sprite(Settings):
             self.IMAGE_NAME = f"{folder_name}/{self.COUNT_ANIMATION}.png"
             self.direction()
             self.COUNT_ANIMATION += 1
-    
-    def gravity(self, block_list: list):
         
-        self.can_move_down(hitbox_list = block_list, item = "block")
-
-        if self.DIRECTION == "LEFT" and not self.JUMP and self.RECT.x > 0:
-            self.X -= 3
-            self.RECT.x -= 3
-
-            self.CAN_MOVE_LEFT = False
-        if self.DIRECTION == "RIGHT" and not self.JUMP:
-            self.X += 3
-            self.RECT.x += 3
-
-            self.CAN_MOVE_RIGHT = False
-        
-        if self.ACTIVE_GRAVITY:
-            self.Y += self.GRAVITY
-            self.RECT.y += self.GRAVITY
-            
-            self.IMAGE_NAME = "player/gravity/0.png"
-            self.direction()
-    
     def direction(self):
         if self.DIRECTION == 'RIGHT' or self.DIRECTION == 'IDLE':
             self.load_image()
         elif self.DIRECTION == 'LEFT':
             self.load_image(can_direction = True)
+

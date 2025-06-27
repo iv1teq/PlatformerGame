@@ -2,12 +2,13 @@ import pygame
 
 from .app import screen
 from .events import quit_game, press_k
-from .player import main_player
+from .player import *
 from .sounds import sound1
 from .tilemap import game_map
 from .enemies import chicken1
 from .settings import heart1, heart2, heart3, heart4, heart5, egg, meat, key
 from .fonts import count_font, key_count_text , meat_count_text
+from .images import create_path
 
 pygame.init()
 
@@ -15,9 +16,12 @@ def run():
     running = True
 
     clock = pygame.time.Clock()
+
+    bg = pygame.image.load(create_path("assets/others/1.jpg"))
+
     
     while running:
-        screen.fill((0, 0, 0))
+        screen.blit(bg, (0,0))
         
         # Оновлюємо лічильник яєць
         egg_count_text = count_font.render(f"{main_player.EGGS_COUNT}", True, (255, 255, 255))
@@ -26,6 +30,24 @@ def run():
         screen.blit(key_count_text, (325, 11))
         screen.blit(meat_count_text, (443, 11))
         
+        
+        print(main_player.CAN_JUMP)
+        if main_player.FLY and main_player.CAN_JUMP:
+            if not main_player.CAN_JUMP :
+                main_player.COUNT_JUMP = 41
+                main_player.Y -= 5
+                main_player.CAN_JUMP = True
+                main_player.COUNT_JUMP = -1000
+                main_player.ACTIVE_GRAVITY = False
+                
+
+
+            main_player.can_move_up(block_list = map_blocks)
+            main_player.COUNT_JUMP = -1000
+            main_player.CAN_JUMP = True
+
+
+
         for event in pygame.event.get():
             if quit_game(event):
                 running = False
@@ -33,6 +55,7 @@ def run():
             elif press_k(event):
                 print("Натиснуто клавішу К")
                 sound1.play()
+            
 
 
         move = main_player.move_map()
@@ -54,6 +77,7 @@ def run():
         main_player.can_move_right(hitbox_list = map_eggs, item = "egg")
         main_player.can_move_left(hitbox_list = map_blocks, item = "block")
         main_player.can_move_left(hitbox_list = map_eggs, item = "egg")
+        main_player.fly()
 
         main_player.jump(block_list = map_blocks)
         

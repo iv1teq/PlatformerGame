@@ -13,9 +13,9 @@ class Settings:
         self.IMAGE_NAME = image_name
         self.RECT = pygame.Rect(self.X + 7.5, self.Y + 10, self.WIDTH - 15, self.HEIGHT - 10)
         
-        self.GRAVITY = 6
         
-        self.ACTIVE_GRAVITY = True
+        
+        
         
         if self.IMAGE_NAME:
             self.load_image()
